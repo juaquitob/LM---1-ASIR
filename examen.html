@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="examen.png">
+	<meta charset="utf-8">
+	<title>Examen</title>
+</head>
+<script> 
+    function onlyNumberKey(evt) {    
+        var ASCIICode = (evt.which) ? evt.which : evt.keyCode 
+        if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) 
+        return false; 
+        return true; 
+    } 
+</script>
+<style type="text/css">
+	td{
+		border: 1px solid;
+		text-align: center;
+	}
+	#distinto{
+		color: black;
+		margin-left: 0px;
+	}
+	#fondo{
+		font-family: 'Roboto', sans-serif;
+		width:990px; 
+		height:500px;
+		background-color:yellow;
+		padding-top: 10px;
+		}
+	#header{
+		margin-right: 20px;
+		margin-left:20px;
+		width:950px; 
+		height:50px;
+		background-color:#F26101;
+	}
+	#texto{
+		float: left;
+		margin-top:15px;
+		margin-left:20px;
+		width:725px; 
+		height:250px;
+		background-color:#56186E;
+	}
+	#right{
+		float: right;
+		margin-top:15px;
+		margin-right:20px;
+		padding-left: 100px;
+		width:100px; 
+		height:250px;
+		background-color:#009EAB;
+	}
+	#footer{
+		float: left;
+		margin-top:15px;
+		margin-left:20px;
+		width:950px; 
+		height:125px;
+		background-color:#C0191C;
+	}
+	u{
+		text-decoration: underline dotted;
+	}
+	ul{
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 18px;
+	}
+	td{
+		padding-right: 30px;
+		padding-left: 30px;
+		border: 1px solid;
+		text-align: center;
+	}
+	input{
+		margin-left: 30px;
+		font-family: 'Josefin Sans', sans-serif;
+		color: gray;
+	}
+	label{
+		font-family: 'Josefin Sans', sans-serif;
+	}
+</style>
+<body>
+	<!--PARTE 1-->
+	<h2 style="font-family: 'Josefin Sans', sans-serif;">
+		El Ártico ha perdido el 14% de hielo marino<br>
+		perenne en un solo año
+	</h2>
+	<p style="text-align: justify; font-family: 'Josefin Sans', sans-serif;">
+		<strong>WASHINGTON.</strong>- El hielo perenne del Ártico se redujo en un 14% durante el<br>
+		último año, al perder <strong>720.000 kilómetros cuadrados</strong>, una superficie superior a la<br>
+		Península Ibérica, según datos de la <u>NASA</u></p><br><br>
+	<!--PARTE 2-->
+	<div style="background: yellow; width: 580px; height: 200px; margin-top: -10px; padding-top:5px;">
+		<h1 style="color: orange; font-family: 'Josefin Sans', sans-serif; text-align: center; margin-top: 10px;">
+			Listas de enlaces
+		</h1>
+		<ul style="margin-top: -15px;">
+			<li>Buscadores</li>
+		</ul>
+		<ul type="circle" style="margin-top: -15px; margin-left: 45px;">
+			<li>
+				<a href="https://www.bing.com/?setlang=es" style="color: purple">
+					Bing
+				</a>
+			</li>
+			<li>
+				<a href="https://www.google.com/?setlang=es" style="color: green; text-decoration: none">
+					Google
+				</a>
+			</li>
+		</ul>
+		<ul style="margin-top: -15px">
+			<li>Redes Sociales</li>
+		</ul>
+		<ul type="circle" style="margin-top: -15px; margin-left: 45px;">
+			<li>
+				<a href="https://www.facebook.com/?setlang=es" style="color: red;">
+					Facebook
+				</a>
+			</li>
+			<li>
+				<a href="https://www.twitter.com/?setlang=es" style="color: red;">
+				Twitter
+				</a>
+			</li>
+		</ul>
+	</div><br><br>
+	<!--PARTE 3-->
+	<h3 style="font-family: 'Josefin Sans';">
+		Encabezado Izquierda
+	</h3>
+	<img src="https://eststatic.com/3511/conversions/frases-atardecer-social.jpg" width="250px" height="150px" style="margin-top: -15px; float: left">
+	<p style="margin-top: -15px; font-size: 18px; color:gray; text-align: justify; font-family: 'Josefin Sans'"> 
+		&nbsp;&nbsp;&nbsp;La música es, según la definición<br>
+		&nbsp;&nbsp;&nbsp;tradicional del término, el arte de<br>
+		&nbsp;&nbsp;&nbsp;organizar sensible y lógicamente una<br>
+		&nbsp;&nbsp;&nbsp;combinación coherente de sonidos y<br>
+		&nbsp;&nbsp;&nbsp;silencios utilizando los principios<br>
+		&nbsp;&nbsp;&nbsp;fundamentales de la melodía, la<br>
+		&nbsp;&nbsp;&nbsp;armonía y el ritmo, mediante la<br>
+		&nbsp;&nbsp;&nbsp;intervención de complejos procesos.
+	</p><br><br>
+	<!--PARTE 4-->
+	<h1>ARREGLAR TABLA</h1>
+	<table rules="groups" style="border: 1px solid">
+            <tr>
+                <td>Lunes</td>
+                <td>Martes</td>
+                <td>Miércoles</td>
+                <td>Jueves</td>
+                <td>Viernes</td>
+            </tr>
+            <tr>
+            	<td>Mates</td>	
+            	<td colspan="3" rowspan="2">Dibujo</td>
+            	<td rowspan="3">Historia</td>
+            </tr>
+             <tr>
+             	<td rowspan="3">Física</td>
+             </tr>
+             <tr>
+             	<td>Descanso</td>
+             	<td>Descanso</td>
+             	<td>Descanso</td>
+             </tr>
+			<tr>
+             	<td>Gimnasia</td>
+             	<td>..futbolín</td>
+             	<td>Gimnasia</td>
+             	<td>Mates</td>
+             </tr>
+    </table><br><br>
+<div id="fondo">
+	<div id="header">
+		<h1 style="padding-top: 5px; text-align: center;">
+			Header
+		</h1>
+	</div>
+	<div id="texto">
+		<h1 style=" color: white; text-align: center; margin-top: 100px;">
+			text-align:center
+		</h1>
+	</div>
+	<div id="right">
+		<h1 style=" color: white; text-align: center; margin-top: 100px; margin-left: -100px;">
+			Right
+		</h1>
+	</div>
+	<div id="footer">
+		<h1 style=" color: white; text-align: center; margin-top: 50px;">
+			Footer
+		</h1>
+	</div>
+</div><br>
+<hr>
+<br>
+	<form>
+		<label for="name">Name :</label>
+		<input type="text" name="name" id="name" placeholder="Name" size="30" maxlength="100"/><br>
+        <label for="password">Password :</label>
+        <input style="margin-left: 8px;" type="password" name="password" id="password" size="30" placeholder="Password"/><br>
+        <label for="pregunta">Gender :</label>
+        <input type="radio" name="pregunta" id="pregunta" value="M" /><span>Male</span>
+        <input type="radio" name="pregunta" id="pregunta" value="F" /><span>Female</span><br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Email" size="30" required style="margin-left: 34px;"><br>
+        <label for="numero">Phone no :</label>
+        <select name="numero" id="numero" style="margin-left: 8px;">
+        	<option value="0" selected>977</option>
+        	<option value="1">34</option>
+        	<option value="2">454</option>
+        </select>
+        <input style="margin-left: -1px;" type="text" name="teléfono" id="teléfono" maxlength="9" placeholder="98480*****" onkeypress="return onlyNumberKey(event)" size="22"><br>
+        <input type="submit" value="Submit" id="distinto"/>
+	</form>
+</body>
+</html>
